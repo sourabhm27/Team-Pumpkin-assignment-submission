@@ -398,7 +398,8 @@
     margin-top:60px;
     align-items:start;
   }
-  .about-photo .placeholder{ min-height:300px; }
+  .about-photo .placeholder{ min-height:420px; }
+  .about-photo .img-slot{ min-height:420px; }
 
   .about-copy{ padding:40px; position:relative; z-index:3; }
   .about-copy .kicker{
@@ -434,17 +435,17 @@
   .poster-grid{
     display:grid;
     grid-template-columns:1fr;
-    gap:56px;
-    max-width:760px;
+    gap:48px;
+    max-width:520px;
     margin:0 auto;
   }
   .poster-card{
     display:flex;
     flex-direction:column;
   }
-  .poster-card .frame{ padding:34px; }
-  .poster-canvas .placeholder{ min-height:640px; aspect-ratio:3/4; }
-  .poster-canvas img{ width:100%; height:auto; display:block; aspect-ratio:3/4; object-fit:cover; border-radius:10px; }
+  .poster-card .frame{ padding:26px; }
+  .poster-canvas .placeholder{ min-height:440px; aspect-ratio:3/4; }
+  .poster-canvas img{ width:100%; height:auto; max-height:560px; display:block; object-fit:contain; border-radius:10px; margin:0 auto; }
   .poster-info{
     padding:16px 26px 22px;
     display:flex;
