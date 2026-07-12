@@ -396,13 +396,13 @@
   /* about-photo + copy row */
   .about-row{
     display:grid;
-    grid-template-columns:0.9fr 1.1fr;
-    gap:40px;
+    grid-template-columns:1fr;
+    gap:36px;
     margin-top:60px;
     align-items:start;
   }
-  .about-photo .placeholder{ width:420px; height:420px; max-width:100%; margin:0 auto; }
-  .about-photo .img-slot{ width:420px; height:420px; max-width:100%; margin:0 auto; }
+  .about-photo .placeholder{ width:100%; max-width:700px; height:520px; margin:0 auto; }
+  .about-photo .img-slot{ width:100%; max-width:700px; height:520px; margin:0 auto; }
 
   .about-copy{ padding:40px; position:relative; z-index:3; }
   .about-copy .kicker{
@@ -508,7 +508,6 @@
 
   /* ---------- responsive ---------- */
   @media (max-width:900px){
-    .about-row{ grid-template-columns:1fr; }
     .poster-grid{ grid-template-columns:1fr; }
     .hero{ padding:70px 0 50px; }
     .wrap{ padding:0 20px; }
